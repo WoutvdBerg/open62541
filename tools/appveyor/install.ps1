@@ -23,7 +23,7 @@ if (-not (Test-Path "c:\miktex\texmfs\install\miktex\bin\pdflatex.exe")) {
 Write-Host -ForegroundColor Green "`n### Installing graphviz ###`n"
 & cinst --no-progress graphviz.portable
 
-vcpkg install mbedtls
+& vcpkg install mbedtls
 
 if ($env:CC_SHORTNAME -eq "vs2015") {
 	Write-Host -ForegroundColor Green "`n### Installing libcheck ###`n"

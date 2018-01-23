@@ -68,6 +68,7 @@ addons:
       - g++-mingw-w64-x86-64
       - g++-multilib
       - graphviz
+      - libmbedtls-dev
       - libsubunit-dev
       - libx11-dev
       - mingw-w64
